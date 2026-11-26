@@ -1,0 +1,284 @@
+[
+  {
+    "certificateId": "s-001",
+    "skillId": "fe-web",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-002",
+    "skillId": "fe-web",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-003",
+    "skillId": "fe-web",
+    "relevance": 0.55,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-004",
+    "skillId": "fe-html",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-005",
+    "skillId": "fe-html",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-006",
+    "skillId": "fe-html",
+    "relevance": 0.6,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-006",
+    "skillId": "fe-css",
+    "relevance": 0.6,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-006",
+    "skillId": "fe-js",
+    "relevance": 0.4,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-007",
+    "skillId": "fe-css",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-008",
+    "skillId": "fe-css",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-009",
+    "skillId": "fe-css",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-010",
+    "skillId": "fe-resp",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-010",
+    "skillId": "fe-css",
+    "relevance": 0.6,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-011",
+    "skillId": "fe-resp",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-012",
+    "skillId": "fe-resp",
+    "relevance": 0.7,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-013",
+    "skillId": "fe-git",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-014",
+    "skillId": "fe-git",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-015",
+    "skillId": "fe-git",
+    "relevance": 0.7,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-015",
+    "skillId": "fe-ship",
+    "relevance": 0.3,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-016",
+    "skillId": "fe-js",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-017",
+    "skillId": "fe-js",
+    "relevance": 0.75,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-018",
+    "skillId": "fe-js",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-019",
+    "skillId": "fe-js",
+    "relevance": 0.6,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-020",
+    "skillId": "fe-dom",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-021",
+    "skillId": "fe-dom",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-022",
+    "skillId": "fe-dom",
+    "relevance": 0.7,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-022",
+    "skillId": "fe-js",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-023",
+    "skillId": "fe-async",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-024",
+    "skillId": "fe-async",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-025",
+    "skillId": "fe-async",
+    "relevance": 0.75,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-026",
+    "skillId": "fe-react",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-027",
+    "skillId": "fe-react",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-028",
+    "skillId": "fe-react",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-029",
+    "skillId": "fe-react",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-030",
+    "skillId": "fe-ts",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-031",
+    "skillId": "fe-ts",
+    "relevance": 0.75,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-031",
+    "skillId": "fe-react",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-032",
+    "skillId": "fe-tools",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-033",
+    "skillId": "fe-tools",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-034",
+    "skillId": "fe-tools",
+    "relevance": 0.6,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-035",
+    "skillId": "fe-ship",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-036",
+    "skillId": "fe-ship",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-037",
+    "skillId": "fe-ship",
+    "relevance": 0.55,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-038",
+    "skillId": "fe-js",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-038",
+    "skillId": "fe-react",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-038",
+    "skillId": "fe-async",
+    "relevance": 0.5,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-038",
+    "skillId": "fe-git",
+    "relevance": 0.4,
+    "method": "manual"
+  }
+]

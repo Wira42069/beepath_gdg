@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+
+# Real archive data stays OUT of the repo, demo and video unless you have permission.
+data/binus/
+raw/
+*.raw.json
+*.raw.csv

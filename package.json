@@ -1,0 +1,13 @@
+{
+  "name": "beepath",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BeePath MVP: pick a tech role, follow a skill path, see ranked certificates per skill.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "validate": "python3 scripts/validate_data.py",
+    "test": "python3 scripts/validate_data.py && node --test tests/ranking.test.mjs tests/data.test.mjs tests/cv.test.mjs",
+    "e2e": "node tests/e2e.mjs"
+  }
+}

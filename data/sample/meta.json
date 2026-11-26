@@ -1,0 +1,9 @@
+{
+  "dataSource": "sample",
+  "label": "Sample data",
+  "notice": "Certificate entries are self-authored placeholders with fictional providers. Prices and durations are illustrative. Nothing here comes from the Binus archive.",
+  "counts": {
+    "certificates": 46,
+    "mappings": 47
+  }
+}

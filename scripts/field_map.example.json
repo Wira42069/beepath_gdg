@@ -1,0 +1,11 @@
+{
+  "title": ["Certificate Name", "name", "title"],
+  "issuer": ["Issued By", "provider", "issuer"],
+  "category": ["Category", "category"],
+  "description": ["Description", "desc"],
+  "url": ["Link", "url"],
+  "price": ["Price", "cost"],
+  "hours": ["Duration", "hours"],
+  "level": ["Level"],
+  "provider_type": ["Type"]
+}

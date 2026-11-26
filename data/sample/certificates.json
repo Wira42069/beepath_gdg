@@ -1,0 +1,738 @@
+[
+  {
+    "id": "s-001",
+    "title": "Internet and Web Fundamentals",
+    "issuer": "Sample Academy",
+    "category": "Web",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 4,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-002",
+    "title": "How Browsers and HTTP Work",
+    "issuer": "OpenCert Sample",
+    "category": "Web",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 3,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-003",
+    "title": "Networking Basics for Developers",
+    "issuer": "Sample Tech Institute",
+    "category": "Networking",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 150000,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-004",
+    "title": "HTML5 Essentials",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-005",
+    "title": "Semantic HTML and Forms",
+    "issuer": "OpenCert Sample",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-006",
+    "title": "Web Development Foundations",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 450000,
+      "currency": "IDR"
+    },
+    "hours": 40,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-007",
+    "title": "CSS Layout Mastery: Flexbox and Grid",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-008",
+    "title": "Modern CSS Styling",
+    "issuer": "Sample Tech Institute",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 250000,
+      "currency": "IDR"
+    },
+    "hours": 15,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-009",
+    "title": "Sass and CSS Architecture",
+    "issuer": "OpenCert Sample",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-010",
+    "title": "Responsive Web Design",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 14,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-011",
+    "title": "Web Accessibility Fundamentals",
+    "issuer": "OpenCert Sample",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-012",
+    "title": "Mobile-First UI Practice",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 300000,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-013",
+    "title": "Git and GitHub for Beginners",
+    "issuer": "Sample Academy",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-014",
+    "title": "Version Control Workflow",
+    "issuer": "Sample Tech Institute",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 200000,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-015",
+    "title": "Collaborative Development with Git",
+    "issuer": "Sample Campus Unit",
+    "category": "Developer Tools",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-016",
+    "title": "JavaScript Fundamentals",
+    "issuer": "Sample Academy",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-017",
+    "title": "Programming Logic with JavaScript",
+    "issuer": "Sample Campus Unit",
+    "category": "Programming",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 16,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-018",
+    "title": "Modern JavaScript (ES6+)",
+    "issuer": "Sample Tech Institute",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 350000,
+      "currency": "IDR"
+    },
+    "hours": 18,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-019",
+    "title": "JavaScript Algorithms and Data Structures",
+    "issuer": "OpenCert Sample",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-020",
+    "title": "DOM Manipulation and Events",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-021",
+    "title": "Browser APIs in Practice",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 250000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-022",
+    "title": "Interactive Web Pages with JavaScript",
+    "issuer": "Sample Campus Unit",
+    "category": "Web Development",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-023",
+    "title": "Asynchronous JavaScript and Promises",
+    "issuer": "OpenCert Sample",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 7,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-024",
+    "title": "Working with REST APIs",
+    "issuer": "Sample Tech Institute",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 300000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-025",
+    "title": "Fetch, JSON and Web Data",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-026",
+    "title": "React Developer Certificate",
+    "issuer": "Sample Academy",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 500000,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-027",
+    "title": "React Hooks and State",
+    "issuer": "OpenCert Sample",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-028",
+    "title": "Building UIs with Components",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 400000,
+      "currency": "IDR"
+    },
+    "hours": 25,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-029",
+    "title": "Frontend Frameworks Overview",
+    "issuer": "Sample Campus Unit",
+    "category": "Web Development",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-030",
+    "title": "TypeScript for JavaScript Developers",
+    "issuer": "Sample Academy",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-031",
+    "title": "Typed React Apps",
+    "issuer": "Sample Tech Institute",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 350000,
+      "currency": "IDR"
+    },
+    "hours": 14,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-032",
+    "title": "Frontend Testing with Jest",
+    "issuer": "OpenCert Sample",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 9,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-033",
+    "title": "Build Tools and Package Managers",
+    "issuer": "Sample Academy",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-034",
+    "title": "Linting, Formatting and Code Quality",
+    "issuer": "Sample Tech Institute",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 150000,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-035",
+    "title": "Deploying Web Apps",
+    "issuer": "OpenCert Sample",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-036",
+    "title": "Portfolio Project Workshop",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Career",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 350000,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-037",
+    "title": "Frontend Developer Career Prep",
+    "issuer": "Sample Campus Unit",
+    "category": "Career",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-038",
+    "title": "Full-Stack Web Development Bundle",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 1200000,
+      "currency": "IDR"
+    },
+    "hours": 120,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-039",
+    "title": "Microsoft Excel Basics",
+    "issuer": "Sample Academy",
+    "category": "Office Skills",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-040",
+    "title": "Public Speaking Essentials",
+    "issuer": "Sample Campus Unit",
+    "category": "Soft Skills",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 4,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-041",
+    "title": "Introduction to Digital Marketing",
+    "issuer": "Sample Tech Institute",
+    "category": "Marketing",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 200000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-042",
+    "title": "SQL for Data Analysis",
+    "issuer": "OpenCert Sample",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-043",
+    "title": "Network Security Basics",
+    "issuer": "Sample Tech Institute",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 250000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-044",
+    "title": "Design Thinking Workshop",
+    "issuer": "Sample Campus Unit",
+    "category": "Design",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-045",
+    "title": "Time Management for Students",
+    "issuer": "Sample Campus Unit",
+    "category": "Soft Skills",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 2,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-046",
+    "title": "Python for Data Analysis",
+    "issuer": "Sample Academy",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 18,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  }
+]

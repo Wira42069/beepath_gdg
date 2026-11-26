@@ -1,0 +1,129 @@
+[
+  {
+    "id": "frontend",
+    "name": "Frontend Developer",
+    "tagline": "Build the part of a website or app that people see and touch.",
+    "icon": "🖥️",
+    "status": "available",
+    "skills": [
+      {
+        "id": "fe-web", "name": "How the web works",
+        "description": "What happens between typing a URL and seeing a page: browsers, HTTP, DNS, and the request and response cycle.",
+        "keywords": ["web", "http", "https", "internet", "browser", "networking", "dns"],
+        "prerequisites": [],
+        "resources": [
+          {"title": "How the web works (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-html", "name": "HTML and semantic markup",
+        "description": "Structure a page with the right elements: headings, lists, links, images, forms, and landmarks that screen readers understand.",
+        "keywords": ["html", "html5", "markup", "semantic", "forms"],
+        "prerequisites": ["fe-web"],
+        "resources": [
+          {"title": "Learn HTML (web.dev)", "url": "https://web.dev/learn/html", "type": "course"},
+          {"title": "Learn web development (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-css", "name": "CSS and layout",
+        "description": "Style pages and lay them out with the box model, Flexbox and Grid.",
+        "keywords": ["css", "css3", "flexbox", "grid", "styling", "sass", "layout"],
+        "prerequisites": ["fe-html"],
+        "resources": [
+          {"title": "Learn CSS (web.dev)", "url": "https://web.dev/learn/css", "type": "course"}
+        ]
+      },
+      {
+        "id": "fe-resp", "name": "Responsive design and accessibility",
+        "description": "Make one page work on phones and desktops, and usable with a keyboard or screen reader.",
+        "keywords": ["responsive", "mobile-first", "accessibility", "a11y", "wcag", "aria"],
+        "prerequisites": ["fe-css"],
+        "resources": [
+          {"title": "Learn Responsive Design (web.dev)", "url": "https://web.dev/learn/design", "type": "course"},
+          {"title": "Learn Accessibility (web.dev)", "url": "https://web.dev/learn/accessibility", "type": "course"}
+        ]
+      },
+      {
+        "id": "fe-git", "name": "Git and GitHub",
+        "description": "Track changes, work on branches, and collaborate through pull requests.",
+        "keywords": ["git", "github", "version control", "branching"],
+        "prerequisites": [],
+        "resources": [
+          {"title": "Pro Git book", "url": "https://git-scm.com/book/en/v2", "type": "docs"},
+          {"title": "GitHub Skills", "url": "https://skills.github.com", "type": "interactive"}
+        ]
+      },
+      {
+        "id": "fe-js", "name": "JavaScript fundamentals",
+        "description": "Variables, functions, arrays, objects, control flow and modern ES6+ syntax.",
+        "keywords": ["javascript", "js", "es6", "ecmascript", "programming logic"],
+        "prerequisites": ["fe-html"],
+        "resources": [
+          {"title": "The Modern JavaScript Tutorial", "url": "https://javascript.info", "type": "course"},
+          {"title": "JavaScript Guide (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-dom", "name": "DOM and browser APIs",
+        "description": "Change a page with JavaScript: select elements, handle events, and use browser features like storage.",
+        "keywords": ["dom", "events", "browser api", "web api", "localstorage"],
+        "prerequisites": ["fe-js"],
+        "resources": [
+          {"title": "Document and DOM (javascript.info)", "url": "https://javascript.info/document", "type": "course"}
+        ]
+      },
+      {
+        "id": "fe-async", "name": "Async JavaScript and APIs",
+        "description": "Fetch data from servers with promises and async/await, and read JSON from REST APIs.",
+        "keywords": ["async", "asynchronous", "promise", "promises", "fetch", "api", "rest", "json", "ajax"],
+        "prerequisites": ["fe-js"],
+        "resources": [
+          {"title": "Promises and async/await (javascript.info)", "url": "https://javascript.info/async", "type": "course"}
+        ]
+      },
+      {
+        "id": "fe-react", "name": "A UI framework (React)",
+        "description": "Build interfaces from reusable components with state and props.",
+        "keywords": ["react", "jsx", "hooks", "components", "frontend framework", "state management"],
+        "prerequisites": ["fe-js", "fe-dom"],
+        "resources": [
+          {"title": "Learn React (react.dev)", "url": "https://react.dev/learn", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-ts", "name": "TypeScript",
+        "description": "Add types to JavaScript so many bugs are caught before the code runs.",
+        "keywords": ["typescript", "types", "type safety"],
+        "prerequisites": ["fe-js"],
+        "resources": [
+          {"title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-tools", "name": "Testing and tooling",
+        "description": "Use npm, a bundler like Vite, a linter, and write basic automated tests.",
+        "keywords": ["testing", "jest", "vitest", "vite", "npm", "bundler", "webpack", "eslint", "linting", "unit test", "package manager", "build tools"],
+        "prerequisites": ["fe-js", "fe-git"],
+        "resources": [
+          {"title": "Vite guide", "url": "https://vite.dev/guide/", "type": "docs"},
+          {"title": "Vitest guide", "url": "https://vitest.dev/guide/", "type": "docs"}
+        ]
+      },
+      {
+        "id": "fe-ship", "name": "Deploy and portfolio project",
+        "description": "Put a finished project online and present it so a recruiter can understand it in a minute.",
+        "keywords": ["deploy", "deployment", "hosting", "portfolio", "capstone", "vercel", "netlify", "github pages", "career"],
+        "prerequisites": ["fe-react", "fe-git"],
+        "resources": [
+          {"title": "Vercel documentation", "url": "https://vercel.com/docs", "type": "docs"},
+          {"title": "GitHub Pages documentation", "url": "https://docs.github.com/en/pages", "type": "docs"}
+        ]
+      }
+    ]
+  },
+  {"id": "backend", "name": "Backend Developer", "tagline": "Servers, databases and the logic behind the screen.", "icon": "⚙️", "status": "coming_soon", "skills": []},
+  {"id": "data-analyst", "name": "Data Analyst", "tagline": "Turn raw data into answers people can act on.", "icon": "📊", "status": "coming_soon", "skills": []},
+  {"id": "ui-ux", "name": "UI/UX Designer", "tagline": "Design products that are easy and pleasant to use.", "icon": "🎨", "status": "coming_soon", "skills": []},
+  {"id": "cybersecurity", "name": "Cybersecurity Analyst", "tagline": "Find weaknesses before attackers do.", "icon": "🛡️", "status": "coming_soon", "skills": []}
+]
