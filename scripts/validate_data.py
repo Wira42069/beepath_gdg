@@ -62,6 +62,8 @@ def check_roles():
             order.append(sid)
         if r.get("status") == "available" and not r.get("skills"):
             err(f"roles.json: available role {r.get('id')} has no skills")
+        if r.get("draft"):
+            warn(f"roles.json: role {r.get('id')} is a DRAFT skill tree (written by Claude). Review it, then remove \"draft\": true")
     return skills
 
 
@@ -92,6 +94,10 @@ def check_dataset(name, skills):
         p = c.get("price")
         if p is not None and not (isinstance(p, dict) and isinstance(p.get("amount"), (int, float)) and p["amount"] >= 0):
             err(f"{tag} {cid}: price must be null or {{amount>=0, currency}}")
+        if c.get("code") is not None and not re.match(r"^CERT\d+$", str(c["code"])):
+            warn(f"{tag} {cid}: code {c['code']!r} does not look like a Binus archive code (CERT123456)")
+        if c.get("careerRelevant") not in (None, True, False):
+            err(f"{tag} {cid}: careerRelevant must be true, false or absent")
         h = c.get("hours")
         if h is not None and not (isinstance(h, (int, float)) and h > 0):
             err(f"{tag} {cid}: hours must be null or a positive number")

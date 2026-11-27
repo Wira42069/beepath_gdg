@@ -280,5 +280,263 @@
     "skillId": "fe-git",
     "relevance": 0.4,
     "method": "manual"
+  },
+  {
+    "certificateId": "s-101",
+    "skillId": "be-basics",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-102",
+    "skillId": "be-git",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-103",
+    "skillId": "be-http",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-104",
+    "skillId": "be-sql",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-105",
+    "skillId": "be-api",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-106",
+    "skillId": "be-auth",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-107",
+    "skillId": "be-test",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-108",
+    "skillId": "be-arch",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-109",
+    "skillId": "be-docker",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-110",
+    "skillId": "be-cloud",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-111",
+    "skillId": "be-ship",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-112",
+    "skillId": "da-excel",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-113",
+    "skillId": "da-stats",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-114",
+    "skillId": "da-sql",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-115",
+    "skillId": "da-python",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-116",
+    "skillId": "da-clean",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-117",
+    "skillId": "da-viz",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-118",
+    "skillId": "da-bi",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-119",
+    "skillId": "da-think",
+    "relevance": 0.8,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-120",
+    "skillId": "da-ml",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-121",
+    "skillId": "da-capstone",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-122",
+    "skillId": "ux-principles",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-123",
+    "skillId": "ux-research",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-124",
+    "skillId": "ux-ia",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-125",
+    "skillId": "ux-wire",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-126",
+    "skillId": "ux-figma",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-127",
+    "skillId": "ux-a11y",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-128",
+    "skillId": "ux-ds",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-129",
+    "skillId": "ux-proto",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-130",
+    "skillId": "ux-test",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-131",
+    "skillId": "ux-handoff",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-132",
+    "skillId": "ux-portfolio",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-133",
+    "skillId": "sec-it",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-134",
+    "skillId": "sec-net",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-135",
+    "skillId": "sec-found",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-136",
+    "skillId": "sec-linux",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-137",
+    "skillId": "sec-crypto",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-138",
+    "skillId": "sec-web",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-139",
+    "skillId": "sec-ops",
+    "relevance": 0.95,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-140",
+    "skillId": "sec-pentest",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-141",
+    "skillId": "sec-grc",
+    "relevance": 0.85,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-142",
+    "skillId": "sec-cloud",
+    "relevance": 0.9,
+    "method": "manual"
+  },
+  {
+    "certificateId": "s-143",
+    "skillId": "sec-capstone",
+    "relevance": 0.8,
+    "method": "manual"
   }
 ]
