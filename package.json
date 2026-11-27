@@ -3,11 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "BeePath MVP: pick a tech role, follow a skill path, see ranked certificates per skill.",
+  "description": "BeePath: pick a tech role, follow a skill path, see ranked certificates from the Binus archive at each skill.",
   "scripts": {
-    "start": "node scripts/serve.mjs",
-    "validate": "python3 scripts/validate_data.py",
-    "test": "python3 scripts/validate_data.py && node --test tests/ranking.test.mjs tests/data.test.mjs tests/cv.test.mjs",
-    "e2e": "node tests/e2e.mjs"
+    "dev": "node scripts/db-seed.mjs --if-missing && next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:seed": "node scripts/db-seed.mjs",
+    "validate": "node scripts/py.mjs scripts/validate_data.py",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run validate && vitest run && node --test tests/scraper-unit.test.mjs tests/tagging-cli.test.mjs",
+    "test:scraper": "node --test --test-concurrency=1 tests/scraper.integration.test.mjs",
+    "e2e": "node tests/e2e.mjs",
+    "scrape": "node scraper/cli.mjs",
+    "import": "node scripts/py.mjs scripts/import_scraped.py",
+    "tag": "node scripts/tag-gemini.mjs",
+    "links": "node scripts/check_links.mjs"
+  },
+  "devDependencies": {
+    "@google/genai": "3.2.0",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "playwright": "1.63.0",
+    "typescript": "5.9.3",
+    "vitest": "5.1.0"
+  },
+  "dependencies": {
+    "@libsql/client": "0.18.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

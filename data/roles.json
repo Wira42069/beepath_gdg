@@ -7,123 +7,1562 @@
     "status": "available",
     "skills": [
       {
-        "id": "fe-web", "name": "How the web works",
+        "id": "fe-web",
+        "name": "How the web works",
         "description": "What happens between typing a URL and seeing a page: browsers, HTTP, DNS, and the request and response cycle.",
-        "keywords": ["web", "http", "https", "internet", "browser", "networking", "dns"],
+        "keywords": [
+          "web",
+          "http",
+          "https",
+          "internet",
+          "browser",
+          "networking",
+          "dns"
+        ],
         "prerequisites": [],
         "resources": [
-          {"title": "How the web works (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works", "type": "docs"}
+          {
+            "title": "How the web works (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-html", "name": "HTML and semantic markup",
+        "id": "fe-html",
+        "name": "HTML and semantic markup",
         "description": "Structure a page with the right elements: headings, lists, links, images, forms, and landmarks that screen readers understand.",
-        "keywords": ["html", "html5", "markup", "semantic", "forms"],
-        "prerequisites": ["fe-web"],
+        "keywords": [
+          "html",
+          "html5",
+          "markup",
+          "semantic",
+          "forms"
+        ],
+        "prerequisites": [
+          "fe-web"
+        ],
         "resources": [
-          {"title": "Learn HTML (web.dev)", "url": "https://web.dev/learn/html", "type": "course"},
-          {"title": "Learn web development (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development", "type": "docs"}
+          {
+            "title": "Learn HTML (web.dev)",
+            "url": "https://web.dev/learn/html",
+            "type": "course"
+          },
+          {
+            "title": "Learn web development (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-css", "name": "CSS and layout",
+        "id": "fe-css",
+        "name": "CSS and layout",
         "description": "Style pages and lay them out with the box model, Flexbox and Grid.",
-        "keywords": ["css", "css3", "flexbox", "grid", "styling", "sass", "layout"],
-        "prerequisites": ["fe-html"],
+        "keywords": [
+          "css",
+          "css3",
+          "flexbox",
+          "grid",
+          "styling",
+          "sass",
+          "layout"
+        ],
+        "prerequisites": [
+          "fe-html"
+        ],
         "resources": [
-          {"title": "Learn CSS (web.dev)", "url": "https://web.dev/learn/css", "type": "course"}
+          {
+            "title": "Learn CSS (web.dev)",
+            "url": "https://web.dev/learn/css",
+            "type": "course"
+          }
         ]
       },
       {
-        "id": "fe-resp", "name": "Responsive design and accessibility",
+        "id": "fe-resp",
+        "name": "Responsive design and accessibility",
         "description": "Make one page work on phones and desktops, and usable with a keyboard or screen reader.",
-        "keywords": ["responsive", "mobile-first", "accessibility", "a11y", "wcag", "aria"],
-        "prerequisites": ["fe-css"],
+        "keywords": [
+          "responsive",
+          "mobile-first",
+          "accessibility",
+          "a11y",
+          "wcag",
+          "aria"
+        ],
+        "prerequisites": [
+          "fe-css"
+        ],
         "resources": [
-          {"title": "Learn Responsive Design (web.dev)", "url": "https://web.dev/learn/design", "type": "course"},
-          {"title": "Learn Accessibility (web.dev)", "url": "https://web.dev/learn/accessibility", "type": "course"}
+          {
+            "title": "Learn Responsive Design (web.dev)",
+            "url": "https://web.dev/learn/design",
+            "type": "course"
+          },
+          {
+            "title": "Learn Accessibility (web.dev)",
+            "url": "https://web.dev/learn/accessibility",
+            "type": "course"
+          }
         ]
       },
       {
-        "id": "fe-git", "name": "Git and GitHub",
+        "id": "fe-git",
+        "name": "Git and GitHub",
         "description": "Track changes, work on branches, and collaborate through pull requests.",
-        "keywords": ["git", "github", "version control", "branching"],
+        "keywords": [
+          "git",
+          "github",
+          "version control",
+          "branching"
+        ],
         "prerequisites": [],
         "resources": [
-          {"title": "Pro Git book", "url": "https://git-scm.com/book/en/v2", "type": "docs"},
-          {"title": "GitHub Skills", "url": "https://skills.github.com", "type": "interactive"}
+          {
+            "title": "Pro Git book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "docs"
+          },
+          {
+            "title": "GitHub Skills",
+            "url": "https://skills.github.com",
+            "type": "interactive"
+          }
         ]
       },
       {
-        "id": "fe-js", "name": "JavaScript fundamentals",
+        "id": "fe-js",
+        "name": "JavaScript fundamentals",
         "description": "Variables, functions, arrays, objects, control flow and modern ES6+ syntax.",
-        "keywords": ["javascript", "js", "es6", "ecmascript", "programming logic"],
-        "prerequisites": ["fe-html"],
+        "keywords": [
+          "javascript",
+          "js",
+          "es6",
+          "ecmascript",
+          "programming logic"
+        ],
+        "prerequisites": [
+          "fe-html"
+        ],
         "resources": [
-          {"title": "The Modern JavaScript Tutorial", "url": "https://javascript.info", "type": "course"},
-          {"title": "JavaScript Guide (MDN)", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", "type": "docs"}
+          {
+            "title": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info",
+            "type": "course"
+          },
+          {
+            "title": "JavaScript Guide (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-dom", "name": "DOM and browser APIs",
+        "id": "fe-dom",
+        "name": "DOM and browser APIs",
         "description": "Change a page with JavaScript: select elements, handle events, and use browser features like storage.",
-        "keywords": ["dom", "events", "browser api", "web api", "localstorage"],
-        "prerequisites": ["fe-js"],
+        "keywords": [
+          "dom",
+          "events",
+          "browser api",
+          "web api",
+          "localstorage"
+        ],
+        "prerequisites": [
+          "fe-js"
+        ],
         "resources": [
-          {"title": "Document and DOM (javascript.info)", "url": "https://javascript.info/document", "type": "course"}
+          {
+            "title": "Document and DOM (javascript.info)",
+            "url": "https://javascript.info/document",
+            "type": "course"
+          }
         ]
       },
       {
-        "id": "fe-async", "name": "Async JavaScript and APIs",
+        "id": "fe-async",
+        "name": "Async JavaScript and APIs",
         "description": "Fetch data from servers with promises and async/await, and read JSON from REST APIs.",
-        "keywords": ["async", "asynchronous", "promise", "promises", "fetch", "api", "rest", "json", "ajax"],
-        "prerequisites": ["fe-js"],
+        "keywords": [
+          "async",
+          "asynchronous",
+          "promise",
+          "promises",
+          "fetch",
+          "api",
+          "rest",
+          "json",
+          "ajax"
+        ],
+        "prerequisites": [
+          "fe-js"
+        ],
         "resources": [
-          {"title": "Promises and async/await (javascript.info)", "url": "https://javascript.info/async", "type": "course"}
+          {
+            "title": "Promises and async/await (javascript.info)",
+            "url": "https://javascript.info/async",
+            "type": "course"
+          }
         ]
       },
       {
-        "id": "fe-react", "name": "A UI framework (React)",
+        "id": "fe-react",
+        "name": "A UI framework (React)",
         "description": "Build interfaces from reusable components with state and props.",
-        "keywords": ["react", "jsx", "hooks", "components", "frontend framework", "state management"],
-        "prerequisites": ["fe-js", "fe-dom"],
+        "keywords": [
+          "react",
+          "jsx",
+          "hooks",
+          "components",
+          "frontend framework",
+          "state management"
+        ],
+        "prerequisites": [
+          "fe-js",
+          "fe-dom"
+        ],
         "resources": [
-          {"title": "Learn React (react.dev)", "url": "https://react.dev/learn", "type": "docs"}
+          {
+            "title": "Learn React (react.dev)",
+            "url": "https://react.dev/learn",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-ts", "name": "TypeScript",
+        "id": "fe-ts",
+        "name": "TypeScript",
         "description": "Add types to JavaScript so many bugs are caught before the code runs.",
-        "keywords": ["typescript", "types", "type safety"],
-        "prerequisites": ["fe-js"],
+        "keywords": [
+          "typescript",
+          "types",
+          "type safety"
+        ],
+        "prerequisites": [
+          "fe-js"
+        ],
         "resources": [
-          {"title": "TypeScript Handbook", "url": "https://www.typescriptlang.org/docs/handbook/intro.html", "type": "docs"}
+          {
+            "title": "TypeScript Handbook",
+            "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-tools", "name": "Testing and tooling",
+        "id": "fe-tools",
+        "name": "Testing and tooling",
         "description": "Use npm, a bundler like Vite, a linter, and write basic automated tests.",
-        "keywords": ["testing", "jest", "vitest", "vite", "npm", "bundler", "webpack", "eslint", "linting", "unit test", "package manager", "build tools"],
-        "prerequisites": ["fe-js", "fe-git"],
+        "keywords": [
+          "testing",
+          "jest",
+          "vitest",
+          "vite",
+          "npm",
+          "bundler",
+          "webpack",
+          "eslint",
+          "linting",
+          "unit test",
+          "package manager",
+          "build tools"
+        ],
+        "prerequisites": [
+          "fe-js",
+          "fe-git"
+        ],
         "resources": [
-          {"title": "Vite guide", "url": "https://vite.dev/guide/", "type": "docs"},
-          {"title": "Vitest guide", "url": "https://vitest.dev/guide/", "type": "docs"}
+          {
+            "title": "Vite guide",
+            "url": "https://vite.dev/guide/",
+            "type": "docs"
+          },
+          {
+            "title": "Vitest guide",
+            "url": "https://vitest.dev/guide/",
+            "type": "docs"
+          }
         ]
       },
       {
-        "id": "fe-ship", "name": "Deploy and portfolio project",
+        "id": "fe-ship",
+        "name": "Deploy and portfolio project",
         "description": "Put a finished project online and present it so a recruiter can understand it in a minute.",
-        "keywords": ["deploy", "deployment", "hosting", "portfolio", "capstone", "vercel", "netlify", "github pages", "career"],
-        "prerequisites": ["fe-react", "fe-git"],
+        "keywords": [
+          "deploy",
+          "deployment",
+          "hosting",
+          "portfolio",
+          "capstone",
+          "vercel",
+          "netlify",
+          "github pages",
+          "career"
+        ],
+        "prerequisites": [
+          "fe-react",
+          "fe-git"
+        ],
         "resources": [
-          {"title": "Vercel documentation", "url": "https://vercel.com/docs", "type": "docs"},
-          {"title": "GitHub Pages documentation", "url": "https://docs.github.com/en/pages", "type": "docs"}
+          {
+            "title": "Vercel documentation",
+            "url": "https://vercel.com/docs",
+            "type": "docs"
+          },
+          {
+            "title": "GitHub Pages documentation",
+            "url": "https://docs.github.com/en/pages",
+            "type": "docs"
+          }
         ]
       }
     ]
   },
-  {"id": "backend", "name": "Backend Developer", "tagline": "Servers, databases and the logic behind the screen.", "icon": "⚙️", "status": "coming_soon", "skills": []},
-  {"id": "data-analyst", "name": "Data Analyst", "tagline": "Turn raw data into answers people can act on.", "icon": "📊", "status": "coming_soon", "skills": []},
-  {"id": "ui-ux", "name": "UI/UX Designer", "tagline": "Design products that are easy and pleasant to use.", "icon": "🎨", "status": "coming_soon", "skills": []},
-  {"id": "cybersecurity", "name": "Cybersecurity Analyst", "tagline": "Find weaknesses before attackers do.", "icon": "🛡️", "status": "coming_soon", "skills": []}
+  {
+    "id": "backend",
+    "name": "Backend Developer",
+    "tagline": "Servers, databases and the logic behind the screen.",
+    "icon": "⚙️",
+    "status": "available",
+    "skills": [
+      {
+        "id": "be-basics",
+        "name": "Programming fundamentals",
+        "description": "One server-side language well: variables, control flow, functions, data structures and object-oriented basics.",
+        "keywords": [
+          "programming",
+          "pemrograman",
+          "python",
+          "java",
+          "golang",
+          "go",
+          "c#",
+          "node.js",
+          "algorithm",
+          "algoritma",
+          "oop",
+          "data structures"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Python for Everybody",
+            "url": "https://www.py4e.com/",
+            "type": "course"
+          },
+          {
+            "title": "Learn Java (dev.java)",
+            "url": "https://dev.java/learn/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-git",
+        "name": "Git and the command line",
+        "description": "Version control with Git and getting around a terminal: branches, merges, pull requests, shells and scripts.",
+        "keywords": [
+          "git",
+          "github",
+          "gitlab",
+          "version control",
+          "command line",
+          "terminal",
+          "bash",
+          "shell",
+          "linux"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Pro Git (book)",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "book"
+          },
+          {
+            "title": "The Missing Semester (MIT)",
+            "url": "https://missing.csail.mit.edu/",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "be-http",
+        "name": "HTTP and how the web works",
+        "description": "Requests, responses, status codes, headers, cookies and DNS: the protocol every backend speaks.",
+        "keywords": [
+          "http",
+          "https",
+          "web",
+          "internet",
+          "dns",
+          "tcp/ip",
+          "networking",
+          "jaringan"
+        ],
+        "prerequisites": [
+          "be-basics"
+        ],
+        "resources": [
+          {
+            "title": "An overview of HTTP (MDN)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-sql",
+        "name": "SQL and relational databases",
+        "description": "Model data in tables, write queries and joins, use indexes and transactions in a relational database.",
+        "keywords": [
+          "sql",
+          "database",
+          "basis data",
+          "mysql",
+          "postgresql",
+          "sql server",
+          "oracle database",
+          "relational",
+          "data modeling",
+          "dbms"
+        ],
+        "prerequisites": [
+          "be-basics"
+        ],
+        "resources": [
+          {
+            "title": "SQLBolt",
+            "url": "https://sqlbolt.com/",
+            "type": "course"
+          },
+          {
+            "title": "PostgreSQL tutorial",
+            "url": "https://www.postgresql.org/docs/current/tutorial.html",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-api",
+        "name": "Building REST APIs",
+        "description": "Design and build HTTP APIs with a framework: routing, JSON, validation, errors and documentation.",
+        "keywords": [
+          "api",
+          "rest",
+          "restful",
+          "web service",
+          "backend",
+          "back-end",
+          "express",
+          "django",
+          "flask",
+          "fastapi",
+          "spring",
+          "spring boot",
+          "laravel",
+          "json"
+        ],
+        "prerequisites": [
+          "be-http",
+          "be-sql"
+        ],
+        "resources": [
+          {
+            "title": "FastAPI tutorial",
+            "url": "https://fastapi.tiangolo.com/tutorial/",
+            "type": "docs"
+          },
+          {
+            "title": "Express routing guide",
+            "url": "https://expressjs.com/en/guide/routing.html",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-auth",
+        "name": "Authentication and API security",
+        "description": "Log users in safely and protect endpoints: sessions, tokens, OAuth, password storage and common attacks.",
+        "keywords": [
+          "authentication",
+          "authorization",
+          "oauth",
+          "jwt",
+          "owasp",
+          "api security",
+          "keamanan",
+          "security"
+        ],
+        "prerequisites": [
+          "be-api"
+        ],
+        "resources": [
+          {
+            "title": "OWASP Cheat Sheet Series",
+            "url": "https://cheatsheetseries.owasp.org/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-test",
+        "name": "Testing backend code",
+        "description": "Unit and integration tests that catch bugs before users do, and keep refactors safe.",
+        "keywords": [
+          "testing",
+          "software testing",
+          "unit test",
+          "integration test",
+          "tdd",
+          "pytest",
+          "junit",
+          "quality assurance",
+          "qa"
+        ],
+        "prerequisites": [
+          "be-api"
+        ],
+        "resources": [
+          {
+            "title": "pytest: get started",
+            "url": "https://docs.pytest.org/en/stable/getting-started.html",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "be-arch",
+        "name": "Architecture: services, queues and caching",
+        "description": "How larger systems fit together: monoliths and microservices, message queues, caches and scaling.",
+        "keywords": [
+          "microservices",
+          "architecture",
+          "arsitektur",
+          "system design",
+          "message queue",
+          "kafka",
+          "rabbitmq",
+          "redis",
+          "caching",
+          "scalability"
+        ],
+        "prerequisites": [
+          "be-api"
+        ],
+        "resources": [
+          {
+            "title": "The System Design Primer",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "type": "guide"
+          }
+        ]
+      },
+      {
+        "id": "be-docker",
+        "name": "Containers and Docker",
+        "description": "Package an app with its dependencies, run it the same way everywhere, and automate builds with CI/CD.",
+        "keywords": [
+          "docker",
+          "container",
+          "kubernetes",
+          "devops",
+          "ci/cd",
+          "continuous integration",
+          "deployment"
+        ],
+        "prerequisites": [
+          "be-git",
+          "be-api"
+        ],
+        "resources": [
+          {
+            "title": "Docker: learn the basics",
+            "url": "https://docs.docker.com/learn/",
+            "type": "docs"
+          },
+          {
+            "title": "Kubernetes basics",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "be-cloud",
+        "name": "Cloud deployment",
+        "description": "Run services on a cloud platform: compute, managed databases, storage, serverless and cost basics.",
+        "keywords": [
+          "cloud",
+          "cloud computing",
+          "aws",
+          "amazon web services",
+          "azure",
+          "google cloud",
+          "gcp",
+          "alibaba cloud",
+          "serverless"
+        ],
+        "prerequisites": [
+          "be-docker"
+        ],
+        "resources": [
+          {
+            "title": "Google Skills (Google Cloud training)",
+            "url": "https://www.skills.google/",
+            "type": "course"
+          },
+          {
+            "title": "Microsoft Learn: Azure",
+            "url": "https://learn.microsoft.com/en-us/training/azure/",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "be-ship",
+        "name": "Capstone: ship a backend service",
+        "description": "Build, test, secure and deploy one real API end to end, with a README another developer can follow.",
+        "keywords": [
+          "project",
+          "portfolio",
+          "capstone",
+          "backend",
+          "deployment"
+        ],
+        "prerequisites": [
+          "be-cloud",
+          "be-test",
+          "be-auth"
+        ],
+        "resources": [
+          {
+            "title": "The Twelve-Factor App",
+            "url": "https://12factor.net/",
+            "type": "guide"
+          }
+        ]
+      }
+    ],
+    "draft": true
+  },
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "tagline": "Turn raw data into answers people can act on.",
+    "icon": "📊",
+    "status": "available",
+    "skills": [
+      {
+        "id": "da-excel",
+        "name": "Spreadsheets for analysis",
+        "description": "Clean, summarise and chart data in Excel or Google Sheets: formulas, lookups and pivot tables.",
+        "keywords": [
+          "excel",
+          "microsoft excel",
+          "spreadsheet",
+          "google sheets",
+          "pivot table",
+          "vlookup",
+          "microsoft office",
+          "office"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Excel help and learning (Microsoft)",
+            "url": "https://support.microsoft.com/en-us/excel",
+            "type": "docs"
+          },
+          {
+            "title": "Excel foundations (LearnFree, formerly GCFGlobal)",
+            "url": "https://www.learnfree.org/series/excel-foundations",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-stats",
+        "name": "Statistics fundamentals",
+        "description": "Describe data and reason about uncertainty: distributions, sampling, confidence intervals and hypothesis tests.",
+        "keywords": [
+          "statistics",
+          "statistika",
+          "statistik",
+          "probability",
+          "probabilitas",
+          "hypothesis testing",
+          "regression",
+          "descriptive statistics"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Statistics and probability (Khan Academy)",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "type": "course"
+          },
+          {
+            "title": "OpenIntro Statistics (free book)",
+            "url": "https://www.openintro.org/book/os/",
+            "type": "book"
+          }
+        ]
+      },
+      {
+        "id": "da-sql",
+        "name": "SQL for analysis",
+        "description": "Pull the data you need from a database: filtering, joins, grouping and window functions.",
+        "keywords": [
+          "sql",
+          "database",
+          "basis data",
+          "query",
+          "mysql",
+          "postgresql",
+          "bigquery",
+          "data warehouse"
+        ],
+        "prerequisites": [
+          "da-excel"
+        ],
+        "resources": [
+          {
+            "title": "SQLBolt",
+            "url": "https://sqlbolt.com/",
+            "type": "course"
+          },
+          {
+            "title": "Intro to SQL (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/intro-to-sql",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-python",
+        "name": "Python for data",
+        "description": "Load, reshape and summarise data with Python, pandas and notebooks.",
+        "keywords": [
+          "python",
+          "pandas",
+          "numpy",
+          "jupyter",
+          "data analysis",
+          "analisis data",
+          "r programming",
+          "data science"
+        ],
+        "prerequisites": [
+          "da-stats"
+        ],
+        "resources": [
+          {
+            "title": "Python (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/python",
+            "type": "course"
+          },
+          {
+            "title": "Pandas (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/pandas",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-clean",
+        "name": "Data cleaning and preparation",
+        "description": "Fix missing values, duplicates, wrong types and messy text so the analysis can be trusted.",
+        "keywords": [
+          "data cleaning",
+          "data wrangling",
+          "data preparation",
+          "etl",
+          "data quality",
+          "data transformation",
+          "data processing"
+        ],
+        "prerequisites": [
+          "da-python",
+          "da-sql"
+        ],
+        "resources": [
+          {
+            "title": "Data Cleaning (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/data-cleaning",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-viz",
+        "name": "Data visualization",
+        "description": "Choose the right chart, label it honestly and tell a clear story with it.",
+        "keywords": [
+          "data visualization",
+          "visualisasi data",
+          "visualization",
+          "charts",
+          "matplotlib",
+          "seaborn",
+          "storytelling",
+          "infographic"
+        ],
+        "prerequisites": [
+          "da-clean"
+        ],
+        "resources": [
+          {
+            "title": "Data Visualization (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/data-visualization",
+            "type": "course"
+          },
+          {
+            "title": "Fundamentals of Data Visualization (free book)",
+            "url": "https://clauswilke.com/dataviz/",
+            "type": "book"
+          }
+        ]
+      },
+      {
+        "id": "da-bi",
+        "name": "BI dashboards",
+        "description": "Build interactive dashboards in Power BI, Tableau or Looker Studio that people actually use.",
+        "keywords": [
+          "power bi",
+          "tableau",
+          "looker",
+          "looker studio",
+          "dashboard",
+          "business intelligence",
+          "bi",
+          "reporting",
+          "data studio"
+        ],
+        "prerequisites": [
+          "da-viz"
+        ],
+        "resources": [
+          {
+            "title": "Power BI (Microsoft Learn)",
+            "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi",
+            "type": "course"
+          },
+          {
+            "title": "Tableau free training videos",
+            "url": "https://www.tableau.com/learn/training",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-think",
+        "name": "Asking the right business questions",
+        "description": "Turn a vague request into a measurable question, pick metrics, and explain what the numbers mean for a decision.",
+        "keywords": [
+          "data analytics",
+          "business analysis",
+          "analytics",
+          "kpi",
+          "metrics",
+          "a/b testing",
+          "decision making",
+          "business intelligence"
+        ],
+        "prerequisites": [
+          "da-stats",
+          "da-sql"
+        ],
+        "resources": [
+          {
+            "title": "Think Stats (free book)",
+            "url": "https://greenteapress.com/wp/think-stats-2e/",
+            "type": "book"
+          }
+        ]
+      },
+      {
+        "id": "da-ml",
+        "name": "Intro to machine learning for analysts",
+        "description": "When a simple predictive model helps, how to train and evaluate one, and how not to fool yourself.",
+        "keywords": [
+          "machine learning",
+          "ml",
+          "predictive analytics",
+          "scikit-learn",
+          "classification",
+          "regression",
+          "artificial intelligence",
+          "ai",
+          "kecerdasan buatan"
+        ],
+        "prerequisites": [
+          "da-python",
+          "da-stats"
+        ],
+        "resources": [
+          {
+            "title": "Intro to Machine Learning (Kaggle Learn)",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "type": "course"
+          },
+          {
+            "title": "Machine Learning Crash Course (Google)",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "da-capstone",
+        "name": "Capstone: an end-to-end analysis",
+        "description": "Pick a public dataset, answer a real question with it, and publish the notebook and dashboard.",
+        "keywords": [
+          "portfolio",
+          "project",
+          "case study",
+          "capstone",
+          "data analytics"
+        ],
+        "prerequisites": [
+          "da-bi",
+          "da-think"
+        ],
+        "resources": [
+          {
+            "title": "Kaggle datasets",
+            "url": "https://www.kaggle.com/datasets",
+            "type": "data"
+          },
+          {
+            "title": "Satu Data Indonesia",
+            "url": "https://data.go.id/",
+            "type": "data"
+          }
+        ]
+      }
+    ],
+    "draft": true
+  },
+  {
+    "id": "ui-ux",
+    "name": "UI/UX Designer",
+    "tagline": "Design products that are easy and pleasant to use.",
+    "icon": "🎨",
+    "status": "available",
+    "skills": [
+      {
+        "id": "ux-principles",
+        "name": "Visual design principles",
+        "description": "Hierarchy, spacing, typography, colour and contrast: what makes an interface easy to read and scan.",
+        "keywords": [
+          "design",
+          "desain",
+          "ui",
+          "ui design",
+          "visual design",
+          "graphic design",
+          "typography",
+          "color",
+          "layout",
+          "design principles"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Laws of UX",
+            "url": "https://lawsofux.com/",
+            "type": "guide"
+          },
+          {
+            "title": "Material Design 3",
+            "url": "https://m3.material.io/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "ux-research",
+        "name": "User research",
+        "description": "Learn what users need before designing: interviews, surveys, observation, personas and design thinking.",
+        "keywords": [
+          "user research",
+          "ux research",
+          "interview",
+          "survey",
+          "persona",
+          "empathy",
+          "design thinking",
+          "ux",
+          "user experience"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "UX research cheat sheet (NN/g)",
+            "url": "https://www.nngroup.com/articles/ux-research-cheat-sheet/",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "ux-ia",
+        "name": "Information architecture and user flows",
+        "description": "Organise content and map the steps people take: sitemaps, navigation, card sorting and journey maps.",
+        "keywords": [
+          "information architecture",
+          "user flow",
+          "sitemap",
+          "card sorting",
+          "navigation",
+          "journey map",
+          "customer journey"
+        ],
+        "prerequisites": [
+          "ux-research"
+        ],
+        "resources": [
+          {
+            "title": "Information architecture articles (NN/g)",
+            "url": "https://www.nngroup.com/topic/information-architecture/",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "ux-wire",
+        "name": "Wireframing",
+        "description": "Sketch layouts quickly at low fidelity to test structure before spending time on visuals.",
+        "keywords": [
+          "wireframe",
+          "wireframing",
+          "sketch",
+          "low fidelity",
+          "lo-fi",
+          "balsamiq",
+          "prototype"
+        ],
+        "prerequisites": [
+          "ux-ia"
+        ],
+        "resources": [
+          {
+            "title": "What is wireframing? (Figma)",
+            "url": "https://www.figma.com/resource-library/what-is-wireframing/",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "ux-figma",
+        "name": "Figma and high-fidelity design",
+        "description": "Turn wireframes into polished screens with auto layout, components, styles and variants.",
+        "keywords": [
+          "figma",
+          "adobe xd",
+          "sketch app",
+          "high fidelity",
+          "mockup",
+          "ui design",
+          "prototyping",
+          "canva"
+        ],
+        "prerequisites": [
+          "ux-wire",
+          "ux-principles"
+        ],
+        "resources": [
+          {
+            "title": "Figma learn and help center",
+            "url": "https://help.figma.com/hc/en-us",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "ux-a11y",
+        "name": "Accessibility",
+        "description": "Design for everyone: contrast, focus order, text alternatives, and the WCAG guidelines.",
+        "keywords": [
+          "accessibility",
+          "aksesibilitas",
+          "wcag",
+          "a11y",
+          "inclusive design",
+          "screen reader"
+        ],
+        "prerequisites": [
+          "ux-principles"
+        ],
+        "resources": [
+          {
+            "title": "Introduction to web accessibility (W3C WAI)",
+            "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+            "type": "docs"
+          },
+          {
+            "title": "Learn Accessibility (web.dev)",
+            "url": "https://web.dev/learn/accessibility",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "ux-ds",
+        "name": "Design systems and components",
+        "description": "Reusable components, tokens and guidelines that keep a product consistent as it grows.",
+        "keywords": [
+          "design system",
+          "component library",
+          "style guide",
+          "atomic design",
+          "design tokens",
+          "material design"
+        ],
+        "prerequisites": [
+          "ux-figma"
+        ],
+        "resources": [
+          {
+            "title": "Material Design 3",
+            "url": "https://m3.material.io/",
+            "type": "docs"
+          },
+          {
+            "title": "Atlassian Design System",
+            "url": "https://atlassian.design/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "ux-proto",
+        "name": "Interaction design and prototyping",
+        "description": "Make designs clickable, design states and feedback, and use motion with purpose.",
+        "keywords": [
+          "interaction design",
+          "prototype",
+          "prototyping",
+          "microinteraction",
+          "animation",
+          "motion design",
+          "ixd"
+        ],
+        "prerequisites": [
+          "ux-figma"
+        ],
+        "resources": [
+          {
+            "title": "Interaction Design Foundation: free literature",
+            "url": "https://ixdf.org/literature",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "ux-test",
+        "name": "Usability testing",
+        "description": "Watch real people use your prototype, find where they struggle, and fix it.",
+        "keywords": [
+          "usability testing",
+          "usability",
+          "user testing",
+          "heuristic evaluation",
+          "a/b testing",
+          "evaluation"
+        ],
+        "prerequisites": [
+          "ux-proto",
+          "ux-research"
+        ],
+        "resources": [
+          {
+            "title": "Usability testing 101 (NN/g)",
+            "url": "https://www.nngroup.com/articles/usability-testing-101/",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "ux-handoff",
+        "name": "Working with developers",
+        "description": "Hand designs off cleanly: specs, responsive behaviour, edge cases, and enough HTML/CSS to talk shop.",
+        "keywords": [
+          "handoff",
+          "developer handoff",
+          "html",
+          "css",
+          "front-end",
+          "frontend",
+          "responsive design",
+          "dev mode"
+        ],
+        "prerequisites": [
+          "ux-ds"
+        ],
+        "resources": [
+          {
+            "title": "Learn Responsive Design (web.dev)",
+            "url": "https://web.dev/learn/design",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "ux-portfolio",
+        "name": "Capstone: a case study portfolio",
+        "description": "Write up one project from research to tested design, showing your decisions and what changed.",
+        "keywords": [
+          "portfolio",
+          "case study",
+          "ux case study",
+          "capstone",
+          "project"
+        ],
+        "prerequisites": [
+          "ux-test",
+          "ux-handoff"
+        ],
+        "resources": [
+          {
+            "title": "UX design portfolios (NN/g)",
+            "url": "https://www.nngroup.com/articles/ux-design-portfolios/",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "draft": true
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity Analyst",
+    "tagline": "Find weaknesses before attackers do.",
+    "icon": "🛡️",
+    "status": "available",
+    "skills": [
+      {
+        "id": "sec-it",
+        "name": "IT and operating system basics",
+        "description": "How computers and operating systems work, and how to support and troubleshoot Windows and Linux machines.",
+        "keywords": [
+          "it support",
+          "operating system",
+          "sistem operasi",
+          "windows",
+          "linux",
+          "hardware",
+          "troubleshooting",
+          "komputer",
+          "computer"
+        ],
+        "prerequisites": [],
+        "resources": [
+          {
+            "title": "Professor Messer: free IT and security training videos",
+            "url": "https://www.professormesser.com/",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "sec-net",
+        "name": "Networking fundamentals",
+        "description": "IP addressing, TCP/UDP, routing, DNS and common protocols: the map attackers and defenders both use.",
+        "keywords": [
+          "networking",
+          "network",
+          "jaringan",
+          "jaringan komputer",
+          "tcp/ip",
+          "cisco",
+          "ccna",
+          "routing",
+          "switching",
+          "mikrotik",
+          "dns"
+        ],
+        "prerequisites": [
+          "sec-it"
+        ],
+        "resources": [
+          {
+            "title": "Cloudflare Learning Center",
+            "url": "https://www.cloudflare.com/learning/",
+            "type": "docs"
+          },
+          {
+            "title": "Cisco Networking Academy (free courses)",
+            "url": "https://www.netacad.com/",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "sec-found",
+        "name": "Security fundamentals",
+        "description": "Confidentiality, integrity and availability, common threats, and the controls that stop them.",
+        "keywords": [
+          "cybersecurity",
+          "cyber security",
+          "keamanan siber",
+          "keamanan informasi",
+          "information security",
+          "security awareness",
+          "network security",
+          "nse",
+          "fortinet"
+        ],
+        "prerequisites": [
+          "sec-net"
+        ],
+        "resources": [
+          {
+            "title": "Fortinet Training Institute (free NSE courses)",
+            "url": "https://training.fortinet.com/",
+            "type": "course"
+          },
+          {
+            "title": "NIST Cybersecurity Framework",
+            "url": "https://www.nist.gov/cyberframework",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "sec-linux",
+        "name": "Linux and scripting for security",
+        "description": "Work comfortably in a Linux shell and automate small tasks with Bash or Python.",
+        "keywords": [
+          "linux",
+          "bash",
+          "scripting",
+          "python",
+          "powershell",
+          "command line",
+          "shell"
+        ],
+        "prerequisites": [
+          "sec-it"
+        ],
+        "resources": [
+          {
+            "title": "OverTheWire: Bandit",
+            "url": "https://overthewire.org/wargames/bandit/",
+            "type": "practice"
+          },
+          {
+            "title": "The Linux Command Line (free book)",
+            "url": "https://linuxcommand.org/tlcl.php",
+            "type": "book"
+          }
+        ]
+      },
+      {
+        "id": "sec-crypto",
+        "name": "Cryptography basics",
+        "description": "Hashing, symmetric and public-key encryption, certificates and TLS: what they protect and how they fail.",
+        "keywords": [
+          "cryptography",
+          "kriptografi",
+          "encryption",
+          "enkripsi",
+          "tls",
+          "ssl",
+          "pki",
+          "hashing"
+        ],
+        "prerequisites": [
+          "sec-found"
+        ],
+        "resources": [
+          {
+            "title": "Crypto 101 (free book)",
+            "url": "https://www.crypto101.io/",
+            "type": "book"
+          },
+          {
+            "title": "What is TLS? (Cloudflare)",
+            "url": "https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "id": "sec-web",
+        "name": "Web application security",
+        "description": "The OWASP Top 10 in practice: injection, broken access control, XSS and how to test for them.",
+        "keywords": [
+          "web security",
+          "application security",
+          "appsec",
+          "owasp",
+          "owasp top 10",
+          "xss",
+          "sql injection",
+          "burp suite"
+        ],
+        "prerequisites": [
+          "sec-found"
+        ],
+        "resources": [
+          {
+            "title": "OWASP Top 10",
+            "url": "https://owasp.org/www-project-top-ten/",
+            "type": "docs"
+          },
+          {
+            "title": "Web Security Academy (PortSwigger)",
+            "url": "https://portswigger.net/web-security",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "sec-ops",
+        "name": "Security operations and monitoring",
+        "description": "SOC work: collect and read logs, spot suspicious activity with a SIEM, and follow an incident response plan.",
+        "keywords": [
+          "soc",
+          "security operations",
+          "siem",
+          "splunk",
+          "monitoring",
+          "incident response",
+          "log analysis",
+          "threat detection",
+          "blue team"
+        ],
+        "prerequisites": [
+          "sec-net",
+          "sec-linux"
+        ],
+        "resources": [
+          {
+            "title": "MITRE ATT&CK",
+            "url": "https://attack.mitre.org/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "sec-pentest",
+        "name": "Ethical hacking and penetration testing",
+        "description": "Find and responsibly report vulnerabilities in systems you are allowed to test.",
+        "keywords": [
+          "penetration testing",
+          "pentest",
+          "ethical hacking",
+          "ceh",
+          "kali linux",
+          "red team",
+          "vulnerability assessment",
+          "ctf",
+          "hacking"
+        ],
+        "prerequisites": [
+          "sec-web",
+          "sec-linux"
+        ],
+        "resources": [
+          {
+            "title": "picoCTF",
+            "url": "https://picoctf.org/",
+            "type": "practice"
+          },
+          {
+            "title": "Web Security Academy (PortSwigger)",
+            "url": "https://portswigger.net/web-security",
+            "type": "course"
+          }
+        ]
+      },
+      {
+        "id": "sec-grc",
+        "name": "Risk, governance and compliance",
+        "description": "Assess risk, write policies and map controls to standards such as ISO 27001 and the NIST CSF.",
+        "keywords": [
+          "risk management",
+          "manajemen risiko",
+          "governance",
+          "compliance",
+          "iso 27001",
+          "nist",
+          "audit",
+          "it audit",
+          "policy",
+          "grc"
+        ],
+        "prerequisites": [
+          "sec-found"
+        ],
+        "resources": [
+          {
+            "title": "NIST Cybersecurity Framework",
+            "url": "https://www.nist.gov/cyberframework",
+            "type": "docs"
+          },
+          {
+            "title": "ISO/IEC 27001 overview",
+            "url": "https://www.iso.org/standard/27001",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "sec-cloud",
+        "name": "Cloud security",
+        "description": "Identity and access, network controls, logging and shared responsibility on cloud platforms.",
+        "keywords": [
+          "cloud security",
+          "aws security",
+          "azure security",
+          "iam",
+          "zero trust",
+          "cloud"
+        ],
+        "prerequisites": [
+          "sec-ops"
+        ],
+        "resources": [
+          {
+            "title": "AWS Well-Architected: security pillar",
+            "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html",
+            "type": "docs"
+          },
+          {
+            "title": "Cloud Security Alliance",
+            "url": "https://cloudsecurityalliance.org/",
+            "type": "docs"
+          }
+        ]
+      },
+      {
+        "id": "sec-capstone",
+        "name": "Capstone: home lab and write-ups",
+        "description": "Build a small home lab, solve CTF challenges, and publish clear write-ups of what you found and fixed.",
+        "keywords": [
+          "home lab",
+          "capstone",
+          "portfolio",
+          "ctf",
+          "write-up",
+          "project"
+        ],
+        "prerequisites": [
+          "sec-ops",
+          "sec-pentest"
+        ],
+        "resources": [
+          {
+            "title": "picoCTF",
+            "url": "https://picoctf.org/",
+            "type": "practice"
+          }
+        ]
+      }
+    ],
+    "draft": true
+  }
 ]

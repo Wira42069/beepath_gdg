@@ -2,7 +2,23 @@ node_modules/
 .DS_Store
 
 # Real archive data stays OUT of the repo, demo and video unless you have permission.
-data/binus/
+# Every dataset folder except the self-authored sample (real archive data, trials, LLM caches).
+data/*/
+!data/sample/
 raw/
 *.raw.json
 *.raw.csv
+
+# Scraper sign-in: browser profile + session cookies for YOUR Binus account. Never commit or share.
+.auth/
+
+# Next.js build output and the local development database
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.data/
+
+# API keys (Gemini, Turso)
+.env
+.env.*
+!.env.example

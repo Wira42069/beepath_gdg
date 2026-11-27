@@ -734,5 +734,693 @@
     "level": "Intermediate",
     "source": "sample",
     "sample": true
+  },
+  {
+    "id": "s-101",
+    "title": "Programming Foundations with Python",
+    "issuer": "Sample Academy",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 24,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-102",
+    "title": "Command Line and Git Basics",
+    "issuer": "OpenCert Sample",
+    "category": "Developer Tools",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-103",
+    "title": "HTTP for Backend Developers",
+    "issuer": "Sample Tech Institute",
+    "category": "Web",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 5,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-104",
+    "title": "Relational Databases and SQL",
+    "issuer": "Sample Academy",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 200000,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-105",
+    "title": "Building REST APIs",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Web Development",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 450000,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-106",
+    "title": "Securing Web APIs",
+    "issuer": "Sample Tech Institute",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 300000,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-107",
+    "title": "Automated Testing for Services",
+    "issuer": "OpenCert Sample",
+    "category": "Programming",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-108",
+    "title": "Microservices Architecture Basics",
+    "issuer": "Sample Academy",
+    "category": "Software Architecture",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 350000,
+      "currency": "IDR"
+    },
+    "hours": 16,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-109",
+    "title": "Containers with Docker",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "DevOps",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 250000,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-110",
+    "title": "Cloud Practitioner Essentials",
+    "issuer": "Sample Tech Institute",
+    "category": "Cloud",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-111",
+    "title": "Backend Capstone Project",
+    "issuer": "Sample Campus Unit",
+    "category": "Career",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 40,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-112",
+    "title": "Spreadsheets for Data Analysis",
+    "issuer": "Sample Academy",
+    "category": "Office Skills",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-113",
+    "title": "Statistics for Everyone",
+    "issuer": "OpenCert Sample",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-114",
+    "title": "SQL for Data Analysts",
+    "issuer": "Sample Tech Institute",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 150000,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-115",
+    "title": "Python and Pandas for Data",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 400000,
+      "currency": "IDR"
+    },
+    "hours": 24,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-116",
+    "title": "Data Cleaning in Practice",
+    "issuer": "Sample Academy",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-117",
+    "title": "Visualizing Data Clearly",
+    "issuer": "OpenCert Sample",
+    "category": "Data",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-118",
+    "title": "Dashboards with Power BI",
+    "issuer": "Sample Tech Institute",
+    "category": "Business Intelligence",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 300000,
+      "currency": "IDR"
+    },
+    "hours": 14,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-119",
+    "title": "Analytical Thinking for Business",
+    "issuer": "Sample Campus Unit",
+    "category": "Career",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-120",
+    "title": "Machine Learning Foundations",
+    "issuer": "Sample Academy",
+    "category": "AI",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 500000,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-121",
+    "title": "Data Analytics Capstone",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Career",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 600000,
+      "currency": "IDR"
+    },
+    "hours": 40,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-122",
+    "title": "Visual Design Basics for Screens",
+    "issuer": "Sample Academy",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-123",
+    "title": "User Research Methods",
+    "issuer": "OpenCert Sample",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-124",
+    "title": "Information Architecture Essentials",
+    "issuer": "Sample Tech Institute",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 150000,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-125",
+    "title": "Wireframing Fast",
+    "issuer": "Sample Academy",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 4,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-126",
+    "title": "UI Design with Figma",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 350000,
+      "currency": "IDR"
+    },
+    "hours": 18,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-127",
+    "title": "Accessible Design",
+    "issuer": "OpenCert Sample",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-128",
+    "title": "Building a Design System",
+    "issuer": "Sample Tech Institute",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 400000,
+      "currency": "IDR"
+    },
+    "hours": 14,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-129",
+    "title": "Prototyping Interactions",
+    "issuer": "Sample Academy",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 200000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-130",
+    "title": "Usability Testing in Practice",
+    "issuer": "Sample Campus Unit",
+    "category": "Design",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 6,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-131",
+    "title": "Design Handoff for Developers",
+    "issuer": "OpenCert Sample",
+    "category": "Design",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 4,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-132",
+    "title": "UX Case Study Portfolio",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Career",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 500000,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-133",
+    "title": "IT Support Fundamentals",
+    "issuer": "Sample Academy",
+    "category": "IT Support",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-134",
+    "title": "Network Fundamentals",
+    "issuer": "Sample Tech Institute",
+    "category": "Networking",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 250000,
+      "currency": "IDR"
+    },
+    "hours": 24,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-135",
+    "title": "Introduction to Cybersecurity",
+    "issuer": "OpenCert Sample",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-136",
+    "title": "Linux for Security Analysts",
+    "issuer": "Sample Academy",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 150000,
+      "currency": "IDR"
+    },
+    "hours": 12,
+    "level": "Beginner",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-137",
+    "title": "Applied Cryptography Basics",
+    "issuer": "Sample Tech Institute",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 200000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-138",
+    "title": "Web Application Security Testing",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 450000,
+      "currency": "IDR"
+    },
+    "hours": 20,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-139",
+    "title": "SOC Analyst Essentials",
+    "issuer": "Sample Academy",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 400000,
+      "currency": "IDR"
+    },
+    "hours": 24,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-140",
+    "title": "Ethical Hacking Foundations",
+    "issuer": "Sample Bootcamp Co.",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 500000,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-141",
+    "title": "Security Risk and Compliance",
+    "issuer": "OpenCert Sample",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 8,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-142",
+    "title": "Cloud Security Basics",
+    "issuer": "Sample Tech Institute",
+    "category": "Security",
+    "providerType": "third_party",
+    "url": null,
+    "price": {
+      "amount": 300000,
+      "currency": "IDR"
+    },
+    "hours": 10,
+    "level": "Intermediate",
+    "source": "sample",
+    "sample": true
+  },
+  {
+    "id": "s-143",
+    "title": "Cybersecurity Home Lab Project",
+    "issuer": "Sample Campus Unit",
+    "category": "Career",
+    "providerType": "campus",
+    "url": null,
+    "price": {
+      "amount": 0,
+      "currency": "IDR"
+    },
+    "hours": 30,
+    "level": "Advanced",
+    "source": "sample",
+    "sample": true
   }
 ]

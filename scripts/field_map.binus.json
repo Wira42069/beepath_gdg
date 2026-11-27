@@ -1,0 +1,15 @@
+{
+  "title": ["title"],
+  "code": ["code"],
+  "issuer": ["administrator", "institution"],
+  "institution": ["institution"],
+  "category": ["category"],
+  "description": ["description"],
+  "outcomes": ["learningOutcomes"],
+  "credit_earning": ["creditEarning"],
+  "url": ["url"],
+  "price": ["price"],
+  "hours": ["duration"],
+  "level": ["level"],
+  "provider_type": ["administrator"]
+}
